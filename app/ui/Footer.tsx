@@ -21,7 +21,7 @@ const Footer = () => {
             <div className='w-full flex items-center mb-20 justify-between flex-col md:flex-row gap-10 md:gap-0 '>
                 <span className='flex flex-col items-center md:items-start gap-3'>
                     <span className='gradient-text text-3xl'>Jake Juguilon</span>
-                    <span className='text-[var(--muted-foreground)]'>Building the future, one line of code at a time.</span>
+                    <span className='text-[var(--muted-foreground)] text-center md:text-left'>Building the future, one line of code at a time.</span>
                 </span>
 
                 <button className='flex gap-3 h-[3rem] rounded-[4px] bg-linear-150 from-[var(--primary)] to-[var(--accent)] justify-center items-center px-5'>
