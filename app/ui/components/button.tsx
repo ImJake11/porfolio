@@ -16,7 +16,7 @@ const Button = ({
     variant,
 }: ButtonProps) => {
     return (
-        <button className={clsx("w-fit  h-[3rem] text-gray-950 rounded-[8px] transition-all duration-300 ease-in-out hover:scale-105 ", variants[variant])}
+        <button className={clsx("w-fit min-w-[12rem] h-[3rem] text-gray-950 rounded-[8px] transition-all duration-300 ease-in-out hover:scale-105 ", variants[variant])}
         >
             {children}
         </button>

@@ -48,7 +48,7 @@ const AboutMeSection = () => {
                 </div>
 
                 {/** Cards */}
-                <div className='flex-1 grid grid-cols-2 gap-5 p-5 min-w-[50vw]'>
+                <div className='flex-1 grid grid-cols-1 md:grid-cols-2 gap-5 p-5 min-w-[50vw]'>
                     {features.map((f, i) => <Card
                         key={i}
                         desc={f.description}
