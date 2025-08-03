@@ -33,7 +33,7 @@ const SkillsSection = () => {
     return (
 
         <section className='h-auto w-full bg-[var(--background-secondary)] py-20 px-10 flex flex-col items-center'>
-            <span className='text-6xl text-white font-bold mb-6'>
+            <span className='text-4xl md:text-6xl text-white font-bold mb-6'>
                 My <span className='gradient-text'>Skill</span>
             </span>
 

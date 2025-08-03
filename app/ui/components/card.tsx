@@ -18,8 +18,6 @@ const Card = ({
             <Icon size={40} color='var(--primary)' className='group-hover:scale-110 transition-all ease-in duration-200' />
             <span className='text-2xl text-white'>{title}</span>
             <p className='text-[var(--muted-foreground)]'>{desc}</p>
-
-
         </div>
     )
 }

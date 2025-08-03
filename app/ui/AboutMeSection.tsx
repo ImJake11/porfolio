@@ -33,7 +33,7 @@ const AboutMeSection = () => {
     return (
         <section className='h-auto w-full flex flex-col items-center py-15 px-5 md:py-20 md:px-10'>
 
-            <span className='text-6xl font-bold text-white m-6'>About <span className='gradient-text'>Me</span></span>
+            <span className='text-4xl md:text-6xl font-bold text-white m-6'>About <span className='gradient-text'>Me</span></span>
 
             <p className='text-center text-lg md:text-xl px-10 md:px-45 text-[var(--muted-foreground)] mb-10'>I'm a dedicated full-stack developer with hands-on experience in Flutter, React, and PostgreSQL, passionate about crafting clean, scalable solutions that transform complex ideas into intuitive and engaging user experiences.</p>
 

@@ -26,7 +26,7 @@ const Footer = () => {
 
                 <button className='flex gap-3 h-[3rem] rounded-[4px] bg-linear-150 from-[var(--primary)] to-[var(--accent)] justify-center items-center px-5'>
                     <Download />
-                    <span>Download CV</span>
+                    <a href="/cv.pdf" download={true}><span>Download CV</span></a>
                 </button>
             </div>
 

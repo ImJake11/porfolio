@@ -34,16 +34,17 @@ const HeroSection = () => {
                 {/** buttons */}
                 <div className='gap-4 flex flex-col md:flex-row mb-12'>
                     <Button variant='gradient' >
-                        <div className='group justify-center h-full flex gap-3 items-center p-[0_2rem]'>
+                        <div className='group justify-center h-full flex gap-3 items-center p-[0_2rem] w-[12rem]'>
                             <Mail className='transition-all ease-in group-hover:animate-bounce' size={20} />
                             <span>Hire Me</span>
                         </div>
                     </Button>
                     <Button variant='default'>
-                        <div className='group h-full flex gap-3 items-center p-[0_2rem]'>
-                            <Download className='transition-all ease-in group-hover:animate-bounce' size={20} />
-                            <span>Download CV</span>
-                        </div>
+                        <a href="/cv.pdf" download={true}>
+                            <div className='group h-full flex gap-3 items-center p-[0_2rem]'>
+                                <Download className='transition-all ease-in group-hover:animate-bounce' size={20} />
+                                <span>Download CV</span>
+                            </div></a>
                     </Button>
                 </div>
 

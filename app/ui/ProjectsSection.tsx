@@ -20,7 +20,7 @@ const ProjectsSection = () => {
 
             <span className='text-lg md:text-xl text-center md:text-left text-[var(--muted-foreground)] mb-12'>A showcase of my recent work, from full-stack applications to creative experiments.</span>
 
-            <div className='w-full grid grid-cols-1 md:grid-cols-3'>
+            <div className='w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
                 {projects.map((project, index) => <ProjectCard key={index} badges={project.badges} content={project.content} title={project.title} />)}
             </div>
 
