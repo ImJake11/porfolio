@@ -3,6 +3,8 @@ import { createSlice, PayloadAction } from "@reduxjs/toolkit"
 
 type StateProps = {
     isDialogOpen: boolean,
+    isImageViewOpen: boolean,
+    imageUrl: string,
     dialog: {
         message: string,
         type: "like" | "mail",
@@ -12,6 +14,8 @@ type StateProps = {
 
 const initialState: StateProps = {
     isDialogOpen: false,
+    isImageViewOpen: false,
+    imageUrl: "",
     dialog: {
         type: "like",
         message: "",
@@ -32,9 +36,21 @@ const slice = createSlice({
                 state.isDialogOpen = false;
                 state.dialog.message = ""
             }
+        },
+        toggleImageView: (state, action: PayloadAction<{
+            url: string
+        } | undefined>) => {
+
+            if (action.payload) {
+                state.imageUrl = action.payload.url;
+                state.isImageViewOpen = true;
+                return;
+            }
+
+            state.isImageViewOpen = false;
         }
     }
 });
 
-export const { toggleDialog } = slice.actions;
+export const { toggleDialog, toggleImageView, } = slice.actions;
 export default slice.reducer;

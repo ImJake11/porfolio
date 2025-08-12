@@ -12,9 +12,9 @@ const ContactSection = () => {
                 <span className='gradient-text'> Me</span>
             </span>
 
-            <span className='text-lg md:text-xl text-center md:text-left text-[var(--muted-foreground)] mb-15'>Ready to bring your ideas to life? Let's discuss your next project and create something amazing together.</span>
+            <span className='text-lg md:text-xl text-center lg:text-left text-[var(--muted-foreground)] mb-15'>Ready to bring your ideas to life? Let's discuss your next project and create something amazing together.</span>
 
-            <div className='flex flex-col md:flex-row w-full'>
+            <div className='flex flex-col lg:flex-row w-full'>
                 <div className='flex-1 flex flex-col text-white md:px-10 mb-8'>
                     <span className='text-2xl mb-6'>Let's Connect</span>
                     <span className='text-[var(--muted-foreground)] mb-8'>

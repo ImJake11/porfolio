@@ -5,6 +5,7 @@ import ProjectsSection from "./ui/ProjectsSection";
 import ContactSection from "./ui/ContactSection";
 import Footer from "./ui/Footer";
 import Dialog from "./ui/components/dialog";
+import ViewImage from "./ui/components/viewImage";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <ContactSection />
       <Footer />
       <Dialog />
+      <ViewImage />
     </div>
   );
 }

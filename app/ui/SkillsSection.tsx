@@ -37,7 +37,7 @@ const SkillsSection = () => {
                 My <span className='gradient-text'>Skill</span>
             </span>
 
-            <span className='text-[var(--muted-foreground)] text-lg md:text-xl text-center md:text-left mb-8'>A comprehensive toolkit of modern technologies and frameworks I use to bring ideas to life.</span>
+            <span className='text-[var(--muted-foreground)] text-lg md:text-xl text-center lg:text-left mb-8'>A comprehensive toolkit of modern technologies and frameworks I use to bring ideas to life.</span>
 
             <div className='w-full grid grid-cols-1 md:grid-cols-2 gap-5'>
                 {skills.map((category, index) => {

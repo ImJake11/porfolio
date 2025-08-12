@@ -2,7 +2,9 @@ import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
 import EmailTemplate from "../../ui/components/emailTemplate";
 import { cookies } from "next/headers";
+import { renderToHTML } from "next/dist/server/render";
 
+export const runtime = 'nodejs';
 
 export async function POST(req: NextRequest) {
 
@@ -23,7 +25,6 @@ export async function POST(req: NextRequest) {
                 httpOnly: true,
                 sameSite: "strict",
             })
-
 
             const resend = new Resend(process.env.RESEND_API_KEY);
 
