@@ -54,10 +54,10 @@ const HeroSection = () => {
                 {/** buttons */}
                 <div className='gap-4 flex flex-col md:flex-row mb-12'>
                     <Button variant='gradient' >
-                        <div className='group justify-center h-full flex gap-3 items-center p-[0_2rem] w-[12rem]'>
+                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=jakejuguilon843@gmail.com&su=Job%20Opportunity&body=Hi%20there,%20I%27m%20interested%20in%20working%20with%20you." target='blank'> <div className='group justify-center h-full flex gap-3 items-center p-[0_2rem] w-[12rem]'>
                             <Mail className='transition-all ease-in group-hover:animate-bounce' size={20} />
-                            <span>Hire Me</span>
-                        </div>
+                            <span>Let's work</span>
+                        </div></a>
                     </Button>
                     <Button variant='default'>
                         <a href="/cv.pdf" download={true}>
@@ -70,11 +70,15 @@ const HeroSection = () => {
 
                 {/** links */}
                 <div className='w-auto justify-center flex space-x-6 mb-12'>
-                    <a href="" className='rounded-full bg-[var(--background)]/80 h-[3.5rem] w-[3.5rem] grid place-content-center transition-all duration-300 ease-in-out hover:shadow-[0px_0px_50px_var(--shadow-primary)] hover:scale-110'>
+                    <a href="https://github.com/ImJake11" className='rounded-full bg-[var(--background)]/80 h-[3.5rem] w-[3.5rem] grid place-content-center transition-all duration-300 ease-in-out hover:shadow-[0px_0px_50px_var(--shadow-primary)] hover:scale-110'
+                        target='_blank'
+                    >
                         <Github size={30} color='white' />
                     </a>
 
-                    <a href="" className='rounded-full bg-[var(--background)]/80 h-[3.5rem] w-[3.5rem] grid place-content-center transition-all duration-300 ease-in-out hover:shadow-[0px_0px_50px_var(--shadow-accent)] hover:scale-110'>
+                    <a href="https://www.linkedin.com/in/jake-juguilon-139772356/" className='rounded-full bg-[var(--background)]/80 h-[3.5rem] w-[3.5rem] grid place-content-center transition-all duration-300 ease-in-out hover:shadow-[0px_0px_50px_var(--shadow-accent)] hover:scale-110'
+                        target='_blank'
+                    >
                         <Linkedin size={30} color='white' />
                     </a>
                 </div>

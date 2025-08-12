@@ -21,7 +21,7 @@ const ProjectCard = ({ details }: { details: ProjectDetails }) => {
                 <img src={coverImage} alt="nexustock" className='object-cover w-full h-full transition-all ease-in-out duration-500 group-hover:scale-110' />
                 <div className='absolute bottom-3 left-3 flex gap-3 transition-all duration-300 ease-in-out opacity-100 lg:opacity-0 group-hover:opacity-100'>
                     <Button variant='default'>
-                        <a href={details.repo}>
+                        <a href={details.repo} target='_blank'>
                             <div className='flex px-3 gap-2 items-center'>
                                 <Github size={16} />
                                 <span>Code</span>

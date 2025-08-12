@@ -31,7 +31,7 @@ const Footer = () => {
             </div>
 
             <div className='w-full h-[1px] border border-[var(--secondary)] mb-10' />
-            <span className='w-full text-center text-lg text-[var(--muted-foreground)]'>© 2024 All rights reserved</span>
+            <span className='w-full text-center text-lg text-[var(--muted-foreground)]'>© 2025 All rights reserved</span>
         </div>
     )
 }
