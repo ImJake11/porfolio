@@ -6,6 +6,7 @@ import { ProjectDetails } from '../lib/model/project';
 const projects: ProjectDetails[] = [
     {
         repo: "https://github.com/ImJake11/mypos.git",
+        live: "https://nexustock-jakes-projects-49216d46.vercel.app/ui/auth/sign-up-page",
         coverImage: "/nexustock/nexustock-cover.png",
         title: "Nexustock",
         description: "A full-featured POS app built with Next.js and PostgreSQL, featuring custom session auth, Redux for state, and WebSocket for real-time updates. It uses complex SQL queries for efficient inventory and sales handling. Styled with Tailwind CSS and animated via Framer Motion, it's designed for scalability and clean architecture.",

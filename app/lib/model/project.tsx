@@ -8,6 +8,7 @@ export interface ProjectDetails {
     techs: string[],
     features: Features[],
     repo: string,
+    live: string,
 }
 
 export interface Features {

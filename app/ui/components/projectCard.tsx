@@ -3,7 +3,7 @@
 import React from 'react'
 import ProjectCardBadge from './project-card-badge'
 import Button from './button'
-import { CircleCheck, ExternalLink, Github } from 'lucide-react'
+import { CircleCheck, ExternalLink, Github, RadioTower } from 'lucide-react'
 import { Features, ProjectDetails } from '@/app/lib/model/project'
 import { useDispatch } from 'react-redux'
 import { toggleImageView } from '@/app/lib/redux/slice'
@@ -25,6 +25,13 @@ const ProjectCard = ({ details }: { details: ProjectDetails }) => {
                             <div className='flex px-3 gap-2 items-center'>
                                 <Github size={16} />
                                 <span>Code</span>
+                            </div></a>
+                    </Button>
+                    <Button variant='default'>
+                        <a href={details.live} target='_blank'>
+                            <div className='flex px-3 gap-2 items-center'>
+                                <RadioTower size={16} />
+                                <span>Live</span>
                             </div></a>
                     </Button>
                 </div>
